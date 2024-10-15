@@ -1,0 +1,37 @@
+Patch   http://localhost:8080/api/quantity/3/5
+Content-Type: application/json
+
+
+
+###
+PATCH  http://localhost:8080/api/quantity/4
+Content-Type: application/json
+
+###
+GET http://localhost:8080/api/size/1/1/6
+
+
+###
+Put http://localhost:8080/api/quantity/35
+Content-Type: application/json
+
+{
+    "idQUANTITY":35,
+    "QUANTITY":2
+}
+###
+GET http://localhost:8080/api/mrp/1/319
+
+###
+POST http://localhost:8080/api/mrp/post1
+Content-Type: application/json
+
+{
+    "idSIZE":"3",
+    "MRP":"319"
+    
+}
+###
+PUT http://localhost:8080/api/quantity/update/1
+
+
